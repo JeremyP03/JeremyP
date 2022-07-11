@@ -1,0 +1,20 @@
+h1 {
+    justify-content: center;
+    color: #fff;
+    background-color: red;
+}
+#table {
+align-items: center;
+text-align: center;
+position: relative;
+
+margin-left: 40%;
+margin-right: 40%;
+margin-top: 5%;
+background-color: aqua;
+border-radius: 8%;
+}
+
+ul {
+    color: grey;
+}
