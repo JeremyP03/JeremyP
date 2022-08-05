@@ -1,0 +1,5 @@
+git checkout -b "the name of the new branch" creates a new branch.
+fast forwards only happens when you have no commits in the branch.
+git checkout changes to another branch.
+git branch -d deletes a branch and git branch -D if you have any commits to the branch.
+merge concflicts happens when git cannot automatically resolve differences between two commits.
