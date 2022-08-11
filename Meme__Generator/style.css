@@ -1,0 +1,145 @@
+
+#header {
+    background-color: #576475;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    border-radius: 3%;
+}
+
+body {
+    background-color: #99aabf;
+}
+
+#title {
+    text-align: center;
+    font-size: 60px;
+    color: #085cc9;
+    cursor: default;
+}
+
+#sub_title {
+    text-align: center;
+    font-size:  20px;
+    cursor: default;
+}
+
+#in {
+    text-align: center;
+    font-size: 19px;
+}
+
+#img input {
+    margin-left: 10%;
+    width: 100em;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#text_Top input {
+    margin-left: 10%;
+    width: 100em;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#text_Bottom input {
+    margin-left: 10%;
+    width: 100em;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#text_Top label {
+    font-size: 25px;
+    margin: 20px;
+}
+
+#text_Bottom label {
+    font-size: 25px;
+    margin: 20px;
+}
+
+#img label {
+    font-size: 25px;
+    margin: 20px;
+}
+
+#addMeme {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #00A4FF;
+    margin-left: 87.25%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.memes {
+    width: 100%;
+    list-style: none;
+}
+
+.img_meme {
+    top: 300px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 1%;
+    display: inline-block;
+}
+
+.img_meme:hover {
+    opacity: 0.5;
+
+}
+
+img {
+    
+    width: 500px;
+    height: auto;
+}
+
+.X_Delete {
+    height: 0;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    font-weight: 700;
+    transform: translate(-50%, 60%);
+    text-align: center;
+    content: "X";
+    font-size: 1500%;
+    opacity: 0;
+    cursor: pointer;
+}
+.X_Delete:hover {
+    opacity: 1;
+}
+
+.text {
+    width: 500px;
+    font-size: 250%;
+    line-height: 1em;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: default;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    max-height: 50%;
+
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    max-height: 50%;
+}
+
